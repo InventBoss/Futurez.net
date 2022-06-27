@@ -1,4 +1,4 @@
-.placeholder {
+.about_background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +9,9 @@
     background-color: rgba(189, 69, 0, 0.504);
     border-radius: 10px;
 
-    width: 65vw;
-    height: 30vh;
+    width: 80vw;
+    height: 350px;
+    padding: 30px;
 
     position: absolute;
     top: 0;
@@ -20,13 +21,25 @@
     margin: auto;
 }
 
-.placeholder h1 {
+.about h1 {
+    display: inline-flex;
+    align-items: center;
+    margin: 0px;
+
     color: #c64803;
-    -webkit-text-stroke: 1px #8e1919;
-    font-size: 1.5em;
+    -webkit-text-stroke: 1.5px #8e1919;
+    font-size: 2em;
 }
 
-.placeholder p {
+.about span {
+    background-color: rgba(189, 69, 0, 0.67);
+    border:3px solid #8e1919;
+
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.about p {
     font-family: "Jetbrains Mono";
-    color: #000000;
+    font-size: 1.3em;
 }
