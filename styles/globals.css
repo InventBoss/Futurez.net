@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-image: url(../public/assets/generic/mars_background.png);
+  background-image: url(/assets/generic/mars_background.png);
   background-size: 500px;
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: pixelated;
