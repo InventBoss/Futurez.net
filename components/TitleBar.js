@@ -10,7 +10,7 @@ function TitleBar() {
         <div className="title">
             <Link href="/" passHref prefetch={false}>
             <div>
-                <Image src="/assets/generic/futurez_logo.png" alt="Link to Futurez.net Homepage" width={65} height={65} />Futurez
+                <Image src="/assets/generic/futurez_logo.png" alt="Link to Futurez.net Homepage" width={60} height={60} />Futurez
             </div>
             </Link>
         </div>
@@ -57,10 +57,9 @@ function TitleBar() {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-left: 1.5em;
                 width: 11em;
                 backdrop-filter: saturate(100%);
-                font-size: 1.5em;
+                font-size: 1.3em;
                 color: #c64803;
                 -webkit-text-stroke: 2px #8e1919;
                 margin: 0.5em;
