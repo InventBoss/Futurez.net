@@ -22,7 +22,7 @@ export async function getServerSideProps({ req }) {
     }
 }
 
-export default function Home() {    
+export default function Home() {  
     return (
         <div className={styles.container}>
         <Head>
