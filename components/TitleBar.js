@@ -89,7 +89,7 @@ function TitleBar() {
             
             .logo {
                 cursor: pointer;
-                filter: invert(27%) sepia(23%) saturate(7479%) hue-rotate(17deg) brightness(98%) contrast(98%);
+                filter: invert(35%) sepia(17%) saturate(4091%) hue-rotate(349deg) brightness(93%) contrast(95%);
             }
             
             .logo:hover {

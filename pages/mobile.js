@@ -30,7 +30,7 @@ export default function Mobile() {
                     <Image src="/assets/generic/futurez_logo.png" alt="Futurez Logo" priority="true" width={60} height={60} />&nbsp;Futurez
                 </div>
                 <p>
-                    We&apos;re sorry, but Futurez is not currently compatible on mobile
+                    We&apos;re sorry, but Futurez is not currently compatible on mobile.
                 </p>
                 </article>
             </div>
