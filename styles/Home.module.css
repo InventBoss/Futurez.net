@@ -23,10 +23,13 @@
 .placeholder h1 {
     color: #c64803;
     -webkit-text-stroke: 1px #8e1919;
-    font-size: 1.5em;
+    font-size: calc(1.1vw + 1.1vh);
+    line-height: 5vh;
 }
 
 .placeholder p {
     font-family: "Jetbrains Mono";
     color: #000000;
+    font-size: calc(0.9vw + 0.9vh);
+    line-height: 5vh;
 }
