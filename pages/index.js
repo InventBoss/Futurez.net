@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.placeholder}>
             <article>
             <h1 data-nosnippet>Welcome to my upcoming game Futurez!</h1>
-            <p>It&apos;s going to take me a little while for me to get this game up, but<br /> in the meanwhile... wait I guess?</p>
+            <p>It&apos;s going to take me a little while for me to get this game up, but in the meanwhile... wait I guess?</p>
             </article>
         </div> 
 

@@ -56,7 +56,7 @@ function TitleBar() {
                 align-items: center;
                 width: 11em;
                 backdrop-filter: saturate(100%);
-                font-size: 1.3em;
+                font-size: 25px;
                 color: #c64803;
                 -webkit-text-stroke: 2px #8e1919;
                 margin: 0.5em;
@@ -79,6 +79,7 @@ function TitleBar() {
                 padding: 1em;
                 padding-right: 1.5em;
                 justify-content: space-between;
+                align-items: center;
                 width: 12em;
                 height: 3.5em;
                 right: 0;
