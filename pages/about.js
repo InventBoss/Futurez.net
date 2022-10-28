@@ -7,7 +7,7 @@ export default function About() {
     return (
       <div>
         <Head>
-          <title>Futurez</title>
+          <title>Futurez | About InventBoss</title>
           <meta name="description" content="Welcome to Futurez! Build the Mars Colony of Your Dreams." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
