@@ -1,29 +1,15 @@
 import styles from '../styles/Mobile.module.css'
 import Image from "next/image"
 import { parse } from "express-useragent"
-
-export async function getServerSideProps({ req }) {
-    const rawHeaders = req.rawHeaders
-    const userAgent = rawHeaders[rawHeaders.indexOf("User-Agent") + 1]
-    const isMobile = parse(userAgent).isMobile
-
-    if(!isMobile) {
-        return {
-            redirect: {
-                destination: "/",
-                permanent: false,
-            },
-        }
-    } 
-
-    return {
-        props: {},
-    }
-}
+import Head from 'next/head'
 
 export default function Mobile() {
     return(
         <div>
+            <Head>
+                <title>Futurez | Mobile Incompatability</title>
+                <meta name="robots" content="noindex" />
+            </Head>
             <div className={styles.warning}>
                 <article>
                 <div className={styles.title}>

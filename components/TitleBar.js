@@ -18,21 +18,18 @@ function TitleBar() {
         <div className="socials">
             <div className="logo" width={50} height={50}>
                 <Link href="/about" passHref className="logo" width={50} height={50}>
-                <Image src="/socials/about.svg" alt="InventBoss's About Page" width={50} height={50}/>
+                <Image src="/assets/socials/about.svg" alt="InventBoss's About Page" width={50} height={50}/>
                 </Link>
             </div>
 
             <a href="https://twitter.com/Invent_Boss" rel="noreferrer" target="_blank" className="logo" width={50} height={50}>
-            <Image src="/socials/twitter.svg" alt="InventBoss's Twitter Link" width={50} height={50} />
+            <Image src="/assets/socials/twitter.svg" alt="InventBoss's Twitter Link" width={50} height={50} />
             </a>
 
             <a href="https://github.com/InventBoss/Futurez.net" rel="noreferrer" target="_blank" className="logo" width={50} height={50}>
-            <Image src="/socials/github.svg" alt="Project Github Link" width={50} height={50} />
+            <Image src="/assets/socials/github.svg" alt="Project Github Link" width={50} height={50} />
             </a>
             
-            <a href="https://open.spotify.com/user/hflep1j8uf9thrrr7aa3m9g1v?si=40a32fb6786d402e" rel="noreferrer" target="_blank" className="logo" width={50} height={50}>
-            <Image src="/socials/spotify.svg" alt="InventBoss's Spotify Link" width={50} height={50} />
-            </a>
         </div>
 
         <style jsx>{`
@@ -82,20 +79,20 @@ function TitleBar() {
                 padding: 1em;
                 padding-right: 1.5em;
                 justify-content: space-between;
-                width: 15em;
+                width: 12em;
                 height: 3.5em;
                 right: 0;
             }
             
             .logo {
                 cursor: pointer;
-                filter: invert(35%) sepia(17%) saturate(4091%) hue-rotate(349deg) brightness(93%) contrast(95%);
+                filter: brightness(0) saturate(100%) invert(8%) sepia(90%) saturate(5900%) hue-rotate(358deg) brightness(100%) contrast(83%);
             }
             
             .logo:hover {
                 cursor: pointer;
-                filter: invert(43%) sepia(63%) saturate(3476%) hue-rotate(351deg) brightness(96%) contrast(84%);
-                transform: scale(1.2)
+                filter: brightness(0) saturate(100%) invert(27%) sepia(105%) saturate(1431%) hue-rotate(2deg) brightness(98%) contrast(98%);
+                transform: scale(1.2);
             }
         `}</style>
 
