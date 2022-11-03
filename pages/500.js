@@ -1,12 +1,12 @@
 import TitleBar from '../components/TitleBar'
 import Head from 'next/head'
-import styles from '../styles/404.module.css'
+import styles from '../styles/500.module.css'
 
-export default function _404() {  
+export default function _500() {  
     return (
         <div className={styles.container}>
         <Head>
-            <title>Futurez | 404 Error</title>
+            <title>Futurez | 500 Error</title>
             <meta name="description" content="Welcome to Futurez! Build the Mars Colony of Your Dreams." />
             <meta name="author" content="InventBoss" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@ export default function _404() {
         <TitleBar />
 
         <article className={styles.message}>
-            <h1 data-nosnippet>404 | Well that sucks buddy :/</h1>
+            <h1 data-nosnippet>500 | Well that sucks buddy :/</h1>
         </article>
 
         </div>
