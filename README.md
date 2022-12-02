@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/badge/Futurez-Visit-important?style=flat&labelColor=2b2523)](https://futurez.net)
 
 <p align="center">
-<img width="200" src="https://github.com/InventBoss/Futurez.net/blob/main/public/assets/generic/futurez_logo.png" alt="Material Bread logo">
+<img width="200" src="https://github.com/InventBoss/Futurez.net/blob/main/public/assets/generic/futurez_logo.png" alt="Logo">
 </p>
 
 
