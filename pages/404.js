@@ -1,8 +1,8 @@
 import TitleBar from '../components/TitleBar'
 import Head from 'next/head'
-import styles from '../styles/404.module.css'
+import styles from '../styles/Error.module.css'
 
-export default function _404() {  
+export default function _404() {
     return (
         <div className={styles.container}>
         <Head>

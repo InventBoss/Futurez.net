@@ -1,6 +1,6 @@
 import TitleBar from '../components/TitleBar'
 import Head from 'next/head'
-import styles from '../styles/500.module.css'
+import styles from '../styles/Error.module.css'
 
 export default function _500() {  
     return (
