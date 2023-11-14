@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express-useragent": "^1.0.15",
-    "next": "^12.2.5",
+    "next": "^14.0.2",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
